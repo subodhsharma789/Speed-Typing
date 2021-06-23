@@ -82,7 +82,6 @@ function gameOver() {
 
   endgameEl.style.display = 'flex';
 }
-
 addWordToDOM();
 
 // event listeners
@@ -95,7 +94,6 @@ text.addEventListener('input', e => {
     updateScore();
 
     e.target.value = '';
-
 
     if (difficulty === 'hard') {
       time += 2;
